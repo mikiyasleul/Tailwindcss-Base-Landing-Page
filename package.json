@@ -1,0 +1,21 @@
+{
+  "name": "tailwind-based-landing-page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./input.css -o ./css/main.css",
+    "watch": "tailwindcss -i ./input.css -o ./css/main.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.5.3",
+    "autoprefixer": "^10.4.12",
+    "tailwindcss": "^3.1.8"
+  },
+  "dependencies": {
+    "@tailwindcss/typography": "^0.5.7"
+  }
+}
